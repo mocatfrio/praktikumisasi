@@ -1,0 +1,38 @@
+{
+  "name": "praktikumisasi-frontend",
+  "version": "0.0.0",
+  "private": true,
+  "author": "Hafara Firdausi <hafara@its.ac.id>",
+  "scripts": {
+    "dev": "vite",
+    "preview": "vite preview",
+    "format": "prettier --write src/",
+    "serve": "vue-cli-service serve",
+    "cypress:open": "npm run dev & cypress open --global",
+    "cypress:run": "cypress run --headed",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test": "start-server-and-test dev http://localhost:8080 cypress:run"
+  },
+  "dependencies": {
+    "@vue/cli-service": "^5.0.8",
+    "cypress": "^12.12.0",
+    "flowbite": "^1.6.5",
+    "npm-watch": "^0.11.0",
+    "start-server-and-test": "^2.0.0",
+    "vue": "^3.3.2",
+    "vue-router": "^4.2.0"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.2.0",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/eslint-config-prettier": "^7.1.0",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.39.0",
+    "eslint-plugin-vue": "^9.11.0",
+    "postcss": "^8.4.23",
+    "prettier": "^2.8.8",
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.3.5"
+  }
+}
